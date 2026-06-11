@@ -1,12 +1,12 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Dawid Motłoch  — Mobile & Web Developer",
+  title: "Dawid Motłoch  — DevOps & Python Developer",
   author: "Dawid Motłoch",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+  "Inżynier DevOps i Python Developer z pasją do automatyzacji. Specjalizuję się w budowaniu stabilnej infrastruktury, konteneryzacji oraz zarządzaniu systemami i chmurą.",
   lang: "pl",
-  siteLogo: "/alejandro-small.jpg",
+  siteLogo: "/dawidm_small.jpg",
   navLinks: [
     { text: "Doświadczenie", href: "#experience" },
     { text: "Projekty", href: "#projects" },
@@ -14,10 +14,10 @@ export const SITE_CONFIG: SiteConfig = {
   ],
   socialLinks: [
     { text: "LinkedIn", href: "https://linkedin.com/in/dawidmot" },
-    { text: "Github", href: "https://github.com/dawid2077" },
+    { text: "Github", href: "https://github.com/dawid2077" },/*
     { text: "Youtube", href: "https://github.com/immois/astro-zen" },
     { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
+    { text: "Twitter", href: "https://github.com/immois/astro-zen" },*/
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -26,9 +26,9 @@ export const SITE_CONFIG: SiteConfig = {
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Dawid Motłoch",
-    specialty: "Mobile & Web Developer",
+    specialty: "Devops & Python Developer",
     summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Inżynier DevOps i Python Developer z pasją do automatyzacji. Specjalizuję się w budowaniu stabilnej infrastruktury, konteneryzacji oraz zarządzaniu systemami i chmurą.",
     email: "dawidmot78@gmail.com",
   },
   experience: [
@@ -38,8 +38,16 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "Marzec 2026",
       endDate: "Marzec 2026",
       summary:
-        "Spędziłem miesiąc na praktykach ucząc sie wirtualizacji systemu operacyjnego Proxmox",
-    }
+        "Spędziłem miesiąc na praktykach ucząc sie wirtualizacji używając systemu operacyjnego Proxmox",
+    },
+    {
+      company: "Technikum TME im. Nikoli Tesli",
+      position: "Uczeń",
+      startDate: "Wrzesień 2023",
+      endDate: "Czerwiec 2028",
+      summary:
+        "Spędziłem miesiąc na praktykach ucząc sie wirtualizacji używając systemu operacyjnego Proxmox",
+    },
   ],
   projects: [
     {
@@ -47,30 +55,34 @@ export const SITE_CONTENT: SiteContent = {
       summary: " A highly customizable Discord companion with your own persona defined in a personality.md file, featuring a specialized dual-model pipeline. ",
       linkPreview: "/",
       linkSource: "https://github.com/dawid2077/OpenFaust",
-      image: "/spotifu.png",
+      image: "/faust_arrow.drawio.png",
     },
     {
       name: "Vaultwarden-Homelab",
       summary: " Secure, self-hosted credential management system featuring automated multi-site synchronization, containerized deployment, and high-availability backup redundancy. ",
       linkPreview: "/",
       linkSource: "https://github.com/dawid2077/vaultwarden-homelab",
-      image: "/clone-ig.png",
-    },
+      image: "/vaultwarden.drawio.png",
+    }/*,
+    
     {
       name: "Proxmox Homelab",
       summary: "My homelab server based on proxmox developed during intern at MULTIKOM IT",
       linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      linkSource: "https://github.com/dawid2077/",
+      image: "/proxmox.png",
     },
+    */
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
+    Cześć! Jestem pasjonatem infrastruktury sieciowej, chmury oraz programowania w Pythonie. Uwielbiam pracować na styku kodu i systemów operacyjnych, co udowadniam, rozwijając własne środowisko laboratoryjne (Homelab) oparte na Proxmoxie oraz projektując automatyzacje, takie jak zaawansowane boty czy systemy niezawodnych kopii zapasowych.
 
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+    W swoich projektach kładę ogromny nacisk na bezpieczeństwo, konteneryzację (Docker) oraz chmurę – posiadam certyfikat OCI Foundations Associate, który potwierdza moją wiedzę z zakresu architektury chmurowej. Zamiast gotowych rozwiązań, lubię rozumieć, jak systemy działają pod maską.
+
+    Poza technologią, moją wielką pasją jest matematyka, która ukształtowała moje analityczne podejście do rozwiązywania problemów i optymalizacji kodu. Interesuję się również inwestowaniem – traktuję je jak kolejny fascynujący system pełen danych, algorytmów i zarządzania ryzykiem, co idealnie współgra z moim inżynierskim podejściem do życia.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/dawidm_big.jpg",
   },
 };
 
