@@ -11,14 +11,14 @@ export default defineConfig({
       name: "Gabarito",
       cssVariable: "--font-gabarito",
       fallbacks: ["ui-serif", "serif"],
-      subsets: ["latin", "latin-ext"], // 
+      subsets: ["latin", "latin-ext"], 
     },
     {
       provider: fontProviders.fontsource(),
       name: "Be Vietnam Pro",
       cssVariable: "--font-be-vietnam-pro",
       fallbacks: ["system-ui", "sans-serif"],
-      subsets: ["latin", "latin-ext"], // 
+      subsets: ["latin", "latin-ext"], 
     },
   ],
   vite: {
