@@ -8,7 +8,7 @@ export const SITE_CONFIG: SiteConfig = {
   lang: "pl",
   siteLogo: "/dawidm_small.jpg",
   navLinks: [
-    { text: "Doświadczenie", href: "#experience" },
+    { text: "Doświadczenie & Certyfikaty", href: "#experience" },
     { text: "Projekty", href: "#projects" },
     { text: "O mnie", href: "#about" },
   ],
@@ -48,6 +48,16 @@ export const SITE_CONTENT: SiteContent = {
       summary:
         "Jestem uczniem klasy 3 na profilu technik informatyk",
     },
+    /*
+    {
+      company: "Certyfikaty",
+      position: "Oracle",
+      startDate: "Maj 2026",
+      endDate: "Maj 2028",
+      summary:
+        "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
+    },
+    */
   ],
   projects: [
     {
@@ -63,6 +73,13 @@ export const SITE_CONTENT: SiteContent = {
       linkPreview: "/",
       linkSource: "https://github.com/dawid2077/vaultwarden-homelab",
       image: "/vaultwarden.drawio.png",
+    },
+    {
+      name: "Oracle Cloud",
+      summary: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
+      linkPreview: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=D6AC297C47276726502DE9FA53D5C60B9D5CC07206774C6C686CD79C76B1E42C",
+      linkSource: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=D6AC297C47276726502DE9FA53D5C60B9D5CC07206774C6C686CD79C76B1E42C",
+      image: "/oracle.png",
     }
     /* !!! important add hackathon info + school stem project and add certificatess*/
     /*,
