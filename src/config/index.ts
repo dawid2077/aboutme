@@ -46,7 +46,7 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "Wrzesień 2023",
       endDate: "Czerwiec 2028",
       summary:
-        "Spędziłem miesiąc na praktykach ucząc sie wirtualizacji używając systemu operacyjnego Proxmox",
+        "Jestem uczniem klasy 3 na profilu technik informatyk",
     },
   ],
   projects: [
@@ -63,7 +63,9 @@ export const SITE_CONTENT: SiteContent = {
       linkPreview: "/",
       linkSource: "https://github.com/dawid2077/vaultwarden-homelab",
       image: "/vaultwarden.drawio.png",
-    }/*,
+    }
+    /* !!! important add hackathon info + school stem project and add certificatess*/
+    /*,
     
     {
       name: "Proxmox Homelab",
