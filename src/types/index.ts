@@ -40,7 +40,7 @@ export interface ProjectProps {
 
 export interface AboutProps {
   description: string;
-  image: string;
+  image?: string;
 }
 
 export interface HeaderProps {

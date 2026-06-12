@@ -28,7 +28,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Dawid Motłoch",
     specialty: "Devops & Python Developer",
     summary:
-    "AspirujaInżynier DevOps i Python Developer z pasją do automatyzacji. Specjalizuję się w budowaniu stabilnej infrastruktury, konteneryzacji oraz zarządzaniu systemami i chmurą.",
+    "Aspirujący Inżynier DevOps i Python Developer z pasją do automatyzacji. Specjalizuję się w budowaniu stabilnej infrastruktury, konteneryzacji oraz zarządzaniu systemami i chmurą.",
     email: "dawidmot78@gmail.com",
   },
   experience: [
@@ -99,7 +99,7 @@ export const SITE_CONTENT: SiteContent = {
 
     Poza technologią, moją wielką pasją jest matematyka, która ukształtowała moje analityczne podejście do rozwiązywania problemów i optymalizacji kodu. Interesuję się również inwestowaniem – traktuję je jak kolejny fascynujący system pełen danych, algorytmów i zarządzania ryzykiem, co idealnie współgra z moim inżynierskim podejściem do życia.
     `,
-    image: "/black.png",
+    /*image: "/black.png",*/
   },
 };
 
