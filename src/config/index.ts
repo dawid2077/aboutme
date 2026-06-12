@@ -79,7 +79,7 @@ export const SITE_CONTENT: SiteContent = {
       linkSource: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=D6AC297C47276726502DE9FA53D5C60B9D5CC07206774C6C686CD79C76B1E42C",
       image: "/oracle.png",
     }
-    /* !!! important add hackathon info + school stem project and add certificatess*/
+    /* ! !! important add hackathon info + school stem project and add certificatess*/
     /*,
     
     {
