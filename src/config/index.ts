@@ -6,7 +6,7 @@ export const SITE_CONFIG: SiteConfig = {
   description:
   "Inżynier DevOps i Python Developer z pasją do automatyzacji. Specjalizuję się w budowaniu stabilnej infrastruktury, konteneryzacji oraz zarządzaniu systemami i chmurą.",
   lang: "pl",
-  siteLogo: "/dawidm_small.jpg",
+  siteLogo: "/black.png",
   navLinks: [
     { text: "Doświadczenie & Certyfikaty", href: "#experience" },
     { text: "Projekty", href: "#projects" },
@@ -28,7 +28,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Dawid Motłoch",
     specialty: "Devops & Python Developer",
     summary:
-    "Inżynier DevOps i Python Developer z pasją do automatyzacji. Specjalizuję się w budowaniu stabilnej infrastruktury, konteneryzacji oraz zarządzaniu systemami i chmurą.",
+    "AspirujaInżynier DevOps i Python Developer z pasją do automatyzacji. Specjalizuję się w budowaniu stabilnej infrastruktury, konteneryzacji oraz zarządzaniu systemami i chmurą.",
     email: "dawidmot78@gmail.com",
   },
   experience: [
@@ -63,21 +63,19 @@ export const SITE_CONTENT: SiteContent = {
     {
       name: "OpenFaust",
       summary: " A highly customizable Discord companion with your own persona defined in a personality.md file, featuring a specialized dual-model pipeline. ",
-      linkPreview: "/",
+      /*linkPreview: "/",*/
       linkSource: "https://github.com/dawid2077/OpenFaust",
       image: "/faust_arrow.drawio.png",
     },
     {
       name: "Vaultwarden-Homelab",
       summary: " Secure, self-hosted credential management system featuring automated multi-site synchronization, containerized deployment, and high-availability backup redundancy. ",
-      linkPreview: "/",
       linkSource: "https://github.com/dawid2077/vaultwarden-homelab",
       image: "/vaultwarden.drawio.png",
     },
     {
       name: "Oracle Cloud",
       summary: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
-      linkPreview: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=D6AC297C47276726502DE9FA53D5C60B9D5CC07206774C6C686CD79C76B1E42C",
       linkSource: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=D6AC297C47276726502DE9FA53D5C60B9D5CC07206774C6C686CD79C76B1E42C",
       image: "/oracle.png",
     }
@@ -101,7 +99,7 @@ export const SITE_CONTENT: SiteContent = {
 
     Poza technologią, moją wielką pasją jest matematyka, która ukształtowała moje analityczne podejście do rozwiązywania problemów i optymalizacji kodu. Interesuję się również inwestowaniem – traktuję je jak kolejny fascynujący system pełen danych, algorytmów i zarządzania ryzykiem, co idealnie współgra z moim inżynierskim podejściem do życia.
     `,
-    image: "/dawidm_big.jpg",
+    image: "/black.png",
   },
 };
 

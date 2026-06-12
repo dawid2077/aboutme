@@ -10,7 +10,7 @@ interface Props {
 const { projects } = Astro.props;
 ---
 
-<Section text="Moje projekty" href="projects">
+<Section text="Moje projekty & Certyfikaty" href="projects">
   {
     projects.map(({ name, summary, image, linkPreview, linkSource }, index) => {
       const top = 98 + index * 40;
@@ -33,6 +33,7 @@ const { projects } = Astro.props;
                 >
                   Source
                 </a>
+                {linkPreview && (
                 <a
                   href={linkPreview}
                   target="_blank"
@@ -40,6 +41,7 @@ const { projects } = Astro.props;
                 >
                   Preview
                 </a>
+                )}
               </div>
             </div>
             <div class="flex items-end justify-end overflow-hidden">
