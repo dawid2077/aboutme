@@ -41,7 +41,7 @@ export const SITE_CONTENT: SiteContent = {
         "Spędziłem miesiąc na praktykach ucząc sie wirtualizacji używając systemu operacyjnego Proxmox",
     },
     {
-      company: "Technikum TME im. Nikoli Tesli",
+      company: "TME im. Nikoli Tesli",
       position: "Uczeń",
       startDate: "Wrzesień 2023",
       endDate: "Czerwiec 2028",
