@@ -8,9 +8,10 @@ export const SITE_CONFIG: SiteConfig = {
   lang: "en",
   siteLogo: "/black.png",
   navLinks: [
+    { text: "Po Polsku🇵🇱", href: "."},
     { text: "Experience & Certifications", href: "#experience" },
     { text: "Projects", href: "#projects" },
-    { text: "About Me", href: "#about" },
+    { text: "About Me", href: "#about" }
   ],
   socialLinks: [
     { text: "LinkedIn", href: "https://linkedin.com/in/dawidmot" },
