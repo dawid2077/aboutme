@@ -20,7 +20,7 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
     { text: "Twitter", href: "https://github.com/immois/astro-zen" },*/
   ],
-  socialImage: "/zen-og.png",
+  socialImage: "/preview.png",
   canonicalURL: "https://astro-zen.vercel.app",
 };
 
