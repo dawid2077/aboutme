@@ -9,8 +9,8 @@ export const SITE_CONFIG: SiteConfig = {
   siteLogo: "/black.png",
   navLinks: [
     { text: "In English🇬🇧", href: "index_english"},
-    { text: "Doświadczenie & Certyfikaty", href: "#experience" },
-    { text: "Projekty", href: "#projects" },
+    { text: "Doświadczenie", href: "#experience" },
+    { text: "Projekty & Certyfikaty", href: "#projects" },
     { text: "O mnie", href: "#about" },
   ],
   socialLinks: [
