@@ -39,7 +39,7 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "Marzec 2026",
       endDate: "obecnie",
       summary:
-        "Obecnie pracuję naprawiając,wykonując przeglądy i diagnozując aparaty USG o wartości po 100 tysięcy złotych."
+        "Diagnostyka, przeglądy techniczne oraz serwis zaawansowanych urządzeń medycznych USG o wartości ponad 100 tys. PLN"
     },
     {
       company: "MULTIKOM IT",
@@ -110,7 +110,7 @@ export const SITE_CONTENT: SiteContent = {
   about: {
     description: [
       "Ponad 2 lata doświadczenia z Pythonem oraz ponad rok pracy z chmurą, homelabem i self-hostingiem.",
-      "Zaufanie i ostrożność – pracuję na co dzień z aparatami USG wartymi ok. 100 tysięcy złotych za sztukę.",
+      "Zaufanie i ostrożność – pracuję na co dzień z aparatami USG o wartości ponad 100 tys. PLN",
       "Komunikacja – kontakt z dyrektorami i personelem medycznym w szpitalach w całej Polsce.",
       "Troubleshooting – wyszukiwanie błędów i usterek, analiza logów, testowanie sprawności sprzętu.",
       "Jestem pasjonatem infrastruktury sieciowej, chmury oraz programowania w Pythonie.",

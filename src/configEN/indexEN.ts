@@ -1,7 +1,7 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Dawid Motłoch  — DevOps & Python Developer",
+  title: "Dawid Motłoch — DevOps & Python Developer",
   author: "Dawid Motłoch",
   description:
     "DevOps Engineer and Python Developer with a passion for automation. I specialize in building stable infrastructure, containerization, and managing systems and the cloud.",
@@ -30,17 +30,25 @@ export const SITE_CONTENT: SiteContent = {
     name: "Dawid Motłoch",
     specialty: "DevOps & Python Developer",
     summary:
-      "Aspiring DevOps Engineer and Python Developer with a passion for automation. I specialize in building stable infrastructure, containerization, and managing systems and the cloud.",
+      "Aspiring DevOps Engineer and Python Developer with a passion for learning everything related to IT. I specialize in programming, containerization, and managing systems and the cloud.",
     email: "dawidmot78@gmail.com",
   },
   experience: [
+    {
+      company: "MS Medical PRO",
+      position: "Medical Equipment Technician (Ultrasound)",
+      startDate: "March 2026",
+      endDate: "Present",
+      summary:
+        "Currently working on repairing, servicing, and diagnosing ultrasound machines valued at around 100,000 PLN each.",
+    },
     {
       company: "MULTIKOM IT",
       position: "Intern",
       startDate: "March 2026",
       endDate: "March 2026",
       summary:
-        "Spent a month interning, learning virtualization using the Proxmox operating system.",
+        "Configured and managed a virtualization environment based on Proxmox VE.",
     },
     {
       company: "TME im Nikoli Tesli",
@@ -84,6 +92,12 @@ export const SITE_CONTENT: SiteContent = {
         "https://catalog-education.oracle.com/ords/certview/sharebadge?id=D6AC297C47276726502DE9FA53D5C60B9D5CC07206774C6C686CD79C76B1E42C",
       image: "/oracle.png",
     },
+    {
+      name: "C2 English EFSET",
+      summary: "C2 English Certificate proficient at reading and listening.",
+      linkSource: "https://cert.efset.org/en/d7buQs",
+      image: "/efset.png",
+    },
     /* ! !! important add hackathon info + school stem project and add certificatess*/
     /*,
     
@@ -97,14 +111,21 @@ export const SITE_CONTENT: SiteContent = {
     */
   ],
   about: {
-    description: `
-    Hi! I am passionate about network infrastructure, the cloud, and Python programming. I love working at the intersection of code and operating systems, which I demonstrate by developing my own laboratory environment (Homelab) based on Proxmox and designing automations, such as advanced bots or reliable backup systems.
-
-    In my projects, I place a huge emphasis on security, containerization (Docker), and the cloud – I hold an OCI Foundations Associate certification, which confirms my knowledge of cloud architecture. Instead of relying on ready-made solutions, I prefer to understand how systems work under the hood.
-
-    Beyond technology, my great passion is mathematics, which has shaped my analytical approach to problem-solving and code optimization. I am also interested in investing – I treat it as another fascinating system full of data, algorithms, and risk management, which perfectly aligns with my engineering approach to life.
-    `,
-    /*image: "/black.png",*/
+    description: [
+      "Over 2 years of experience with Python, plus more than a year working with the cloud, homelabs, and self-hosting.",
+      "Trust and precision – I work daily with ultrasound machines worth around 100,000 PLN each.",
+      "Communication – regular contact with directors and medical staff at hospitals across Poland.",
+      "Troubleshooting – diagnosing faults and errors, analyzing logs, and testing equipment performance.",
+      "I'm passionate about network infrastructure, the cloud, and Python programming.",
+      "I'm building my own lab environment (Homelab) based on Proxmox.",
+      "I design automations, such as advanced bots and reliable backup systems.",
+      "I place a strong emphasis on security, containerization (Docker), and the cloud – I hold an OCI Foundations Associate certification.",
+      "I prefer to understand how systems work under the hood rather than relying on ready-made solutions.",
+      "Beyond technology, I'm passionate about mathematics, which has shaped my analytical approach to problem-solving.",
+      "I'm also interested in investing – I see it as a fascinating system full of data, algorithms, and risk management.",
+    ],
+    /* BLOG LINK WILL GO HERE
+    image: "/black.png",*/
   },
 };
 
