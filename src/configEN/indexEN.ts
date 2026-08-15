@@ -1,36 +1,12 @@
 import type { SiteConfig, SiteContent } from "../types";
 
-export const SITE_CONFIG: SiteConfig = {
-  title: "Dawid Motłoch — DevOps & Python Developer",
-  author: "Dawid Motłoch",
-  description:
-    "DevOps Engineer and Python Developer with a passion for automation. I specialize in building stable infrastructure, containerization, and managing systems and the cloud.",
-  lang: "en",
-  siteLogo: "/black.png",
-  navLinks: [
-    { text: "Po Polsku🇵🇱", href: "."},
-    { text: "Experience", href: "#experience" },
-    { text: "Projects & Certifications", href: "#projects" },
-    { text: "About Me", href: "#about" }
-  ],
-  socialLinks: [
-    { text: "LinkedIn", href: "https://linkedin.com/in/dawidmot" },
-    { text: "Github", href: "https://github.com/dawid2077" },
-    /*
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },*/
-  ],
-  socialImage: "/preview.png",
-  canonicalURL: "https://dawidm.com",
-};
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Dawid Motłoch",
     specialty: "DevOps & Python Developer",
     summary:
-      "Aspiring DevOps Engineer and Python Developer with a passion for learning everything related to IT. I specialize in programming, containerization, and managing systems and the cloud.",
+      "Aspiring DevOps Engineer and Python Developer with a passion for learning everything related to IT. I specialize in programming, containerization, managing systems and the cloud.",
     email: "dawidmot78@gmail.com",
   },
   experience: [
