@@ -22,7 +22,7 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "Twitter", href: "https://github.com/immois/astro-zen" },*/
   ],
   socialImage: "/preview.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  canonicalURL: "https://dawidm.com",
 };
 
 export const SITE_CONTENT: SiteContent = {
