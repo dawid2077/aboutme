@@ -10,13 +10,12 @@ interface Props {
 const { projects } = Astro.props;
 ---
 
-<Section text="Moje projekty & Certyfikaty" href="projects">
+<Section text="Projects & Certificates" href="projects">
   {
     projects.map(({ name, summary, image, linkPreview, linkSource }, index) => {
       const top = 98 + index * 40;
       return (
         <div
-          key={name || index}
           style={`top: ${top}px;`}
           class="sticky mb-12 rounded-2xl border border-neutral/20 bg-black"
         >
@@ -49,7 +48,6 @@ const { projects } = Astro.props;
               </div>
             </div>
 
-            {/* FIXED RIGHT COLUMN */}
             <div class="flex items-center justify-center p-5 overflow-hidden">
               <Image
                 class="max-h-full w-full object-contain object-center rounded-lg"
@@ -59,7 +57,6 @@ const { projects } = Astro.props;
                 height={483}
               />
             </div>
-            {/* END FIXED RIGHT COLUMN */}
 
           </div>
         </div>
