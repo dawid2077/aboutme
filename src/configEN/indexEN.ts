@@ -54,7 +54,7 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "September 2023",
       endDate: "June 2028",
       summary:
-        "Currently a 3rd-year IT Technical High School student",
+        "Currently a 4rd-year IT Technical High School student",
     },
     /*
     {

@@ -55,7 +55,7 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "Wrzesień 2023",
       endDate: "Czerwiec 2028",
       summary:
-        "Jestem uczniem klasy 3 na profilu technik informatyk.",
+        "Jestem uczniem klasy 4 na profilu technik informatyk.",
     },
     /*
     {
