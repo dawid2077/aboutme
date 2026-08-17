@@ -74,6 +74,12 @@ export const SITE_CONTENT: SiteContent = {
       linkSource: "https://cert.efset.org/en/d7buQs",
       image: "/efset.png",
     },
+    {
+      name: "INF.02 Vocational Qualification Certificate",
+      summary: "Official state certification confirming proficiency in administration and operation of computer systems, peripheral devices, and local area networks (LAN).",
+      linkSource: "https://github.com/dawid2077/aboutme/public/",
+      image: "/inf02.jpg",
+    }
     /* ! !! important add hackathon info + school stem project and add certificatess*/
     /*,
     
