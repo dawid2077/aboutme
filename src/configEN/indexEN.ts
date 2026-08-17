@@ -1,6 +1,28 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 
+export const SITE_CONFIG: SiteConfig = {
+  title: "Dawid Motłoch — DevOps & Python Developer",
+  author: "Dawid Motłoch",
+  description:
+    "Aspiring DevOps Engineer and Python Developer with a passion for automation. I specialize in building stable infrastructure, containerization, and managing systems and the cloud.",
+  lang: "en",
+  siteLogo: "/black.png",
+  navLinks: [
+    { text: "Po polsku🇵🇱", href: "/" },
+    { text: "Experience", href: "#experience" },
+    { text: "Projects & Certificates", href: "#projects" },
+    { text: "About", href: "#about" },
+  ],
+  socialLinks: [
+    { text: "LinkedIn", href: "https://linkedin.com/in/dawidmot" },
+    { text: "Github", href: "https://github.com/dawid2077" },
+  ],
+  socialImage: "/preview.png",
+  canonicalURL: "https://dawidm.com",
+};
+
+
 export const SITE_CONTENT: SiteContent = {
   hero: {
     name: "Dawid Motłoch",
@@ -76,7 +98,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "INF.02 Vocational Qualification Certificate",
-      summary: "Official state certification confirming proficiency in administration and operation of computer systems, peripheral devices, and local area networks (LAN).",
+      summary: "Official state certification confirming proficiency in administration and operation of computer systems, peripheral devices, and local area networks.",
       linkSource: "https://github.com/dawid2077/aboutme/public/",
       image: "/inf02.jpg",
     }

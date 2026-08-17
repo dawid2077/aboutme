@@ -94,13 +94,12 @@ export const SITE_CONTENT: SiteContent = {
       linkSource: "https://cert.efset.org/en/d7buQs",
       image: "/efset.png",
     },
-    {
-      name: "Certyfikat kwalifikacji INF02",
-      summary: "Certyfikat Potwierdzający Administracje i eksploatacje systemów komputerowych, urządzeń peryferyjnych i lokalnych sieci komputerowych",
-      linkSource: "https://github.com/dawid2077/aboutme/public/",
-      image: "/inf02.jpg",
-    }
-
+  {
+    name: "Certyfikat kwalifikacji zawodowej INF.02",
+    summary: "Państwowy certyfikat potwierdzający kwalifikacje w zakresie administracji i eksploatacji systemów komputerowych, urządzeń peryferyjnych oraz lokalnych sieci komputerowych.",
+    linkSource: "https://dawidm.com/INF02.png",
+    image: "/inf02.jpg",
+  }
 
     /* ! !! important add hackathon info + school stem project and add certificatess*/
     /*,
